@@ -438,4 +438,14 @@
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1" />
 
+<!--XPERIENCE NEXUS DEV BY TEAMMEX BROUGHT SUPPORT TO NEXUS 7 -->
+  <project name="NexPerience/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/proprietary_vendor_elan" path="vendor/elan" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/android_vendor_nvidia_grouper" path="vendor/nvidia" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/proprietary_vendor_nxp" path="vendor/nxp" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-10.2" />
+  <project name="NexPerience/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-10.2" />
 </manifest>
