@@ -453,7 +453,7 @@
   <!-- Added missing features-->
   
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="pac" revision="cm-10.2" />
-  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
 
   
 </manifest>
