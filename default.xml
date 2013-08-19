@@ -432,7 +432,8 @@
 
   <project path="pac" name="pac" remote="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
-  </project>
+    <copyfile dest="build-pac-odexed.sh" src="build-odexed.sh"/>
+      </project>
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
@@ -448,4 +449,5 @@
   <project name="NexPerience/proprietary_vendor_nxp" path="vendor/nxp" remote="github" revision="cm-10.2" />
   <project name="NexPerience/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-10.2" />
   <project name="NexPerience/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-10.2" />
+    
 </manifest>
